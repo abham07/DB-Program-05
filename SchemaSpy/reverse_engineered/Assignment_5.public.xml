@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database name="Assignment_5" schema="public" type="PostgreSQL - 9.4.0">
+   <tables>
+      <table name="logintable" numRows="15" remarks="An authentication database." schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="Names of all users within database." size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="1" name="password" nullable="true" remarks="MD5 Hash passwords of all users within database" size="2147483647" type="bytea"/>
+         <primaryKey column="name" sequenceNumberInPK="1"/>
+         <index name="logintable_pkey" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+   </tables>
+</database>

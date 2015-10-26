@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assign_5</name>
+    </assembly>
+    <members>
+        <member name="T:Assign_5.SubmitForm">
+            <summary>
+            SubmitForm is the class responsible for accepting a username and password,
+            converting the password to MD5 hash and inserting credentials into database
+            </summary>
+        </member>
+        <member name="M:Assign_5.SubmitForm.ValidateLogin">
+            <summary>
+            This function compares the input values with those in the database and 
+            validates whether the user exists or is not found.
+            </summary>
+        </member>
+        <member name="M:Assign_5.SubmitForm.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Page_Load constructor
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The instance containing the event data.</param>
+        </member>
+    </members>
+</doc>

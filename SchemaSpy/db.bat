@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Java\jre7\bin\java" -jar schemaSpy_5.0.0.jar -t pgsql -host localhost:5432 -db "Assignment_5" -u postgres -s public -o reverse_engineered -dp ".\postgresql-9.4-1200.jdbc41.jar" -p 0000
